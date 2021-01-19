@@ -21,7 +21,8 @@ app.get("/isim",function(res,res){
 app.get("/renk", function(req,res){
     var benimrenk1="sari";
     var benimrenk2="laci";
-    res.render("renk", {renk1:benimrenk1 , renk2:benimrenk2});
+    var benimrenk3="kirmizi";
+    res.render("renk", {renk1:benimrenk1 , renk2:benimrenk2 , renk3:benimrenk3});
 })
 app.listen(4444, function(){
     console.log("4444 de calisiyo");
